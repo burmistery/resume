@@ -20,6 +20,7 @@ Linux Systens Engineer with 5+ years of experience focused on Linux OS engineeri
 ## Experience
 
 ** Sber - Senior Linux Systems Engineer**
+
 Feb 2025 - Present | Moscow, Russia
 
 * Developed a Linux in-place reinstallation tool from scratch, taking it from initial implementation to release in 1.5 months.
@@ -28,6 +29,7 @@ Feb 2025 - Present | Moscow, Russia
 * Built a PXE/iPXE proof of concept with DHCP and Linux image delivery for network-based installation.
 
 ** Aladdin R.D. - Senior Linux Engineer **
+
 2021 - 2025 | Moscow, Russia
 
 * Developed a custom Linux OS build system from scratch in Bash, covering the full image lifecycle from minimal debootstrap-based root filesystems to a ready-to-deploy ISO.
