@@ -34,7 +34,7 @@ Feb 2025 - Present | Moscow, Russia
 
 * Developed a custom Linux OS build system from scratch in Bash, covering the full image lifecycle from minimal debootstrap-based root filesystems to a ready-to-deploy ISO.
 * Built and maintained automated LiveCD/LiveUSB image generation with GRUB/EFI integration, SquashFS, OverlayFS and extensive OS customization.
-* Developed an automated image factory around Jenkins: customized the existing pipelinem added build parameters and UI-driven component selection, and automated generation of ISO images with optional SquashFS layers.
+* Developed an automated image factory around Jenkins: customized the existing pipeline, added build parameters and UI-driven component selection, and automated generation of ISO images with optional SquashFS layers.
 * Owned the full lifecycle of the project: feature development, maintenance, troubleshooting, optimization, experimentation and customer-side issue resolution.
 
 ## Education
