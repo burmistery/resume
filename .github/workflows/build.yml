@@ -22,7 +22,7 @@ jobs:
       - name: Install LateX packages
         run: |
           apk add --no-cache \
-            textlive-latex-extra
+            texlive-latex-extra
 
       - name: Build PDF
         run: |
