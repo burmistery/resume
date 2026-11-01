@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  OUTPUT_NAME: Vladimir_Burmistrov_CV.pdf
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,13 +21,13 @@ jobs:
 
       - name: Build PDF
         run: |
-          pandoc resume.md \
-            --template=resume.tex \
+          pandoc CV.md \
+            --template=CV.tex \
             --pdf-engine=xelatex \
-            -o Vladimir_Burmistrov_CV.pdf
+            -o "$OUTPUT_NAME"
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
-          name: resume
-          path: Vladimir_Burmistrov_CV.pdf
+          name: CV
+          path: ${{ env.OUTPUT_NAME }}
