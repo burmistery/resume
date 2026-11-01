@@ -28,7 +28,6 @@ jobs:
             geometry \
             hyperref \
             parskip \
-            tex-gyre \
             titlesec \
             xcolor
 
