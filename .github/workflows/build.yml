@@ -19,6 +19,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install LaTeX packages
+        run: |
+          tlmgr update --self
+          tlmgr install \
+            enumitem \
+            fontspec \
+            geometry \
+            hyperref \
+            parskip \
+            tex-gyre \
+            titlesec \
+            xcolor
+
       - name: Build PDF
         run: |
           pandoc CV.md \
