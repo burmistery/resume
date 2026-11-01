@@ -19,11 +19,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install LateX packages
-        run: |
-          apk add --no-cache \
-            texlive-latex-extra
-
       - name: Build PDF
         run: |
           pandoc CV.md \

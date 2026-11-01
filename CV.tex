@@ -1,14 +1,36 @@
 \documentclass[10pt,a4paper]{article}
-\usepackage[margin=15mm]{geometry} \usepackage{fontspec} \usepackage{titlesec} \usepackage{enumitem} \usepackage{hyperref} \usepackage{xcolor} \usepackage{parskip}
+
+\usepackage[margin=15mm]{geometry}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+
 \setmainfont{TeX Gyre Heros}
-\definecolor{dark}{HTML}{222222} \definecolor{gray}{HTML}{555555}
-\hypersetup{ colorlinks=true, urlcolor=dark, linkcolor=dark }
+
+\definecolor{dark}{HTML}{222222}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=dark,
+    linkcolor=dark
+}
+
 \pagestyle{empty}
-\setlength{\parindent}{0pt} \setlength{\parskip}{3pt}
-\titleformat{\section} {\large\bfseries\color{dark}} {} {0pt} {} [\vspace{-4pt}\rule{\textwidth}{0.4pt}]
-\titleformat{\subsection} {\normalsize\bfseries\color{dark}} {} {0pt} {}
-\titlespacing*{\section}{0pt}{8pt}{4pt} \titlespacing*{\subsection}{0pt}{5pt}{1pt}
-\setlist[itemize]{ leftmargin=14pt, itemsep=1pt, topsep=2pt, parsep=0pt }
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\setlist[itemize]{
+    leftmargin=14pt,
+    itemsep=1pt,
+    topsep=2pt,
+    parsep=0pt
+}
+
 \begin{document}
+
 $body$
+
 \end{document}
