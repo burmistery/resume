@@ -2,13 +2,13 @@
 
 **Senior Linux System Engineer | Linux OS Engineering**
 
-Moscow / Open to relotation & international roles
+Moscow / Open to relocation & international roles
 
 burmistery@gmail.com / t.me/burmistery / linkedin.com/in/burmistery / github.com/burmistery
 
 ## Summary
 
-Linux Systens Engineer with 5+ years of experience focused on Linux OS engineering, distribution customization, image building, (re)installers and systemd-level automation. Strong Bash expertise with hands-on experience in Debian-based systems, systemd, DEB packaging, GRUB/EFI, SquashFS and OverlayFS. Experienced in owning Linux platform tooling end-to-end, from development and optimization to troubleshooting and customer-side issue resolution,
+Linux Systems Engineer with 5+ years of experience focused on Linux OS engineering, distribution customization, image building, (re)installers and systemd-level automation. Strong Bash expertise with hands-on experience in Debian-based systems, systemd, DEB packaging, GRUB/EFI, SquashFS and OverlayFS. Experienced in owning Linux platform tooling end-to-end, from development and optimization to troubleshooting and customer-side issue resolution.
 
 ## Core skills
 
