@@ -26,8 +26,8 @@ Linux Systems Engineer with 5+ years of experience focused on Linux OS engineeri
 Feb 2025 - Present | Moscow, Russia
 
 * Developed a Linux in-place reinstallation tool from scratch, taking it from initial implementation to release in 1.5 months.
-* Maintained and improved Linux Installer, Windows-to-Linux migration and Firstboot tooling, working extensively with legacy Bash code and systemd services. Resolved numerous legacy issues and improved the reliability.
-* Introduced a Bash styleguide and refactored legacy components, improving code quality, maintainability and reliability.
+* Maintained and improved Linux Installer, Windows-to-Linux migration and Firstboot tooling, working extensively with legacy Bash code and systemd services. Resolved numerous legacy issues and improved reliability.
+* Introduced a Bash style guide and refactored legacy components, improving code quality, maintainability and reliability.
 * Built a PXE/iPXE proof of concept with DHCP and Linux image delivery for network-based installation.
 
 **Aladdin R.D. - Senior Linux Engineer**
