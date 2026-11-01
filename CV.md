@@ -1,7 +1,9 @@
 # Vladimir Burmistrov
 
 **Senior Linux System Engineer | Linux OS Engineering**
+
 Moscow / Open to relotation & international roles
+
 burmistery@gmail.com / t.me/burmistery / linkedin.com/in/burmistery / github.com/burmistery
 
 ## Summary
