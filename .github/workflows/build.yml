@@ -22,7 +22,7 @@ jobs:
       - name: Install LaTeX packages
         run: |
           apk add --no-cache \
-            fonts-dejavu-core \
+            fonts-dejavu \
             ttf-dejavu
 
           tlmgr update --self
