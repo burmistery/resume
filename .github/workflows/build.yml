@@ -1,4 +1,4 @@
-name: Build resume
+name: Build CV
 
 on:
   push:
@@ -6,16 +6,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  convert_via_pandoc:
+  build:
     runs-on: ubuntu-latest
 
+    container:
+      image: pandoc/latex:latest
+
     steps:
-      - uses: docker://pandoc/core:3.8
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build PDF
+        run: |
+          pandoc resume.md \
+            --template=resume.tex \
+            --pdf-engine=xelatex \
+            -o Vladimir_Burmistrov_CV.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
         with:
-          args: >-
-            resume.md
-            --output=output/resume.pdf
-      - uses: actions/upload-artifact@v4
-        with:
-          name: output
-          path: output
+          name: resume
+          path: Vladimir_Burmistrov_CV.pdf
