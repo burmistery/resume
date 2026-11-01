@@ -19,7 +19,7 @@ Linux Systens Engineer with 5+ years of experience focused on Linux OS engineeri
 
 ## Experience
 
-** Sber - Senior Linux Systems Engineer**
+**Sber - Senior Linux Systems Engineer**
 
 Feb 2025 - Present | Moscow, Russia
 
