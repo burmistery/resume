@@ -42,8 +42,12 @@ jobs:
             --pdf-engine=xelatex \
             -o "$OUTPUT_NAME"
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: CV
-          path: ${{ env.OUTPUT_NAME }}
+          tag_name: cv-${{ github.run_number }}
+          name: CV ${{ github.run_number }}
+          body: "Automated CV build"
+          files: ${{ env.OUTPUT_NAME }}
+          draft: false
+          prerelease: false
