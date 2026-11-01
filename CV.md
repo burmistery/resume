@@ -4,7 +4,7 @@
 
 Moscow / Open to relocation & international roles
 
-burmistery@gmail.com | t.me/burmistery | linkedin.com/in/burmistery | github.com/burmistery
+burmistery@gmail.com | [t.me/burmistery](https://t.me/burmistery) | [linkedin.com/in/burmistery](https://linkedin.com/in/burmistery) | [github.com/burmistery](https://github.com/burmistery)
 
 ## Summary
 
