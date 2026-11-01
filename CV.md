@@ -28,7 +28,7 @@ Feb 2025 - Present | Moscow, Russia
 * Introduced a Bash styleguide and refactored legacy components, improving code quality, maintainability and reliability.
 * Built a PXE/iPXE proof of concept with DHCP and Linux image delivery for network-based installation.
 
-** Aladdin R.D. - Senior Linux Engineer **
+**Aladdin R.D. - Senior Linux Engineer**
 
 2021 - 2025 | Moscow, Russia
 
