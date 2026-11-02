@@ -1,6 +1,6 @@
 # Vladimir Burmistrov
 
-**Senior Linux System Engineer | Linux OS Engineering**
+**Senior Linux Systems Engineer | Linux OS Engineering**
 
 Moscow / Open to relocation & international roles
 
