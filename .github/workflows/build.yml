@@ -3,6 +3,9 @@ name: Build CV
 on:
   push:
     branches: [main]
+    paths:
+      - 'CV.md'
+      - 'CV.tex'
   workflow_dispatch:
 
 env:
@@ -41,7 +44,7 @@ jobs:
       - name: Build PDF
         run: |
           pandoc CV.md \
-            --template=CV.tex \
+            --template=templates/CV.tex \
             --pdf-engine=xelatex \
             -o "$OUTPUT_NAME"
 
